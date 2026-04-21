@@ -31,6 +31,7 @@ main {
     border-radius: 40px;
     padding: 3%;
     z-index: 1;
+    position: relative;
 }
 
 main::before {
@@ -95,7 +96,7 @@ input {
     border-radius: 10px;
     width: 50%;
     height: 100%;
-    padding: 1%;
+    padding: 3%;
     text-align: center;
     font-weight: bolder;
     font-size: 20px;
@@ -211,7 +212,7 @@ input::placeholder {
 #blue,
 #green {
     height: 100%;
-    width: 25%;
+    width: 24%;
     border-radius: 0;
     border: 0;
     display: flex;
@@ -239,6 +240,7 @@ input::placeholder {
 
 #blue {
     background-color: rgb(173, 216, 230);
+    width: 28%;
 }
 
 #green {
